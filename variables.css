@@ -1,0 +1,45 @@
+:root {
+  /** colors */
+  --color-name: custom;
+  --color-bg-shade: #202020;
+  --color-bg-base: #282828;
+  --color-bg-surface: #303030;
+  --color-bg-highlight: #383838;
+  --color-fg-shade: #DABC70;
+  --color-fg-base: #EBDBB2;
+  --color-fg-surface: #FCFAF4;
+  --color-fg-highlight: #FFFFFF;
+  --color-primary-bg: #3E564D;
+  --color-primary-base: #83A598;
+  --color-primary-fg: #D9E3DF;
+  --color-secondary-bg: #25394C;
+  --color-secondary-base: #4A7197;
+  --color-secondary-fg: #8BA9C6;
+  --color-palette-red: #E06C75;
+  --color-palette-green: #98C379;
+  --color-palette-yellow: #E5C07B;
+  --color-palette-blue: #61AFEF;
+  --color-palette-purple: #C678DD;
+  --color-palette-cyan: #56B6C2;
+  --color-palette-orange: #FFBB7C;
+  
+  /** general */
+  --font-family: Fira Code;
+  --display-image: block;
+
+  /** surface */
+  --surface-maxWidth: 1000px;
+  --surface-shadow: 1px 1px 4px #3E564D;
+  --surface-borderRadius: 10px;
+
+  /** spacing */
+  --space-smallest: 0.125rem;
+  --space-small: 0.5rem;
+  --space-medium: 1rem;
+  --space-large: 1.5rem;
+  --space-largest: 3rem;
+
+  /** others */
+  --picture-size: 300px;
+  --group-count: 2;
+}
