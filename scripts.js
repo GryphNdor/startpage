@@ -8,7 +8,7 @@
 const searchInput = document.querySelector("#searchbar > input")
 const searchButton = document.querySelector("#searchbar > button")
 
-const lookup = {"/":"/","deepl":"https://deepl.com/","reddit":"https://reddit.com/","maps":"https://maps.google.com/"}
+const lookup = { "/": "/", "deepl": "https://deepl.com/", "reddit": "https://reddit.com/", "maps": "https://maps.google.com/" }
 const engine = "duckduckgo"
 const engineUrls = {
   deepl: "https://www.deepl.com/translator#-/-/",
@@ -47,7 +47,27 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"VkOKtG5LkEDc5B8Y","label":"dev","bookmarks":[{"id":"TlngUh3SpUVQUcDC","label":"figma","url":"https://www.figma.com/"},{"id":"ti3eYvHWXRXfuNeL","label":"ui goodies","url":"https://www.uigoodies.com/"},{"id":"qu1ZA97He8KtjqnV","label":"leetcode","url":"https://leetcode.com/problemset/all/"}]},{"id":"DmILMzCG5lte7zdR","label":"school","bookmarks":[{"id":"asLe5XQQMd5X0GcX","label":"canvas","url":"https://login.vt.edu/profile/cas/login?execution=e1s1"},{"id":"s1yyMX8eaMo5DECd","label":"checksheet","url":"https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/coe/21-22/coe_cs_21_22.pdf"},{"id":"ohDvXO8npBvfanK0","label":"google drive","url":"https://drive.google.com/drive/my-drive"}]}]
+const bookmarks = [
+  {
+    "id": "VkOKtG5LkEDc5B8Y",
+    "label": "dev",
+    "bookmarks": [
+      { "id": "TlngUh3SpUVQUcDC", "label": "figma", "url": "https://www.figma.com/" },
+      { "id": "ti3eYvHWXRXfuNeL", "label": "ui goodies", "url": "https://www.uigoodies.com/" },
+      { "id": "qu1ZA97He8KtjqnV", "label": "leetcode", "url": "https://leetcode.com/problemset/all/" }
+    ]
+  },
+  {
+    "id": "DmILMzCG5lte7zdR",
+    "label": "school",
+    "bookmarks": [
+      { "id": "asLe5XQQMd5X0GcX", "label": "canvas", "url": "https://login.vt.edu/profile/cas/login?execution=e1s1" },
+      { "id": "s1yyMX8eaMo5DECd", "label": "checksheet", "url": "https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/coe/21-22/coe_cs_21_22.pdf" },
+      { "id": "ohDvXO8npBvfanK0", "label": "google drive", "url": "https://drive.google.com/drive/my-drive" },
+      { "id": "a8cd22a4f276ecf8b4ab826a6a15b824", "label": "gmail", "url": "https://mail.google.com/mail/u/0/" },
+    ]
+  }
+]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
