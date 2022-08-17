@@ -54,7 +54,8 @@ const bookmarks = [
     "bookmarks": [
       { "id": "TlngUh3SpUVQUcDC", "label": "figma", "url": "https://www.figma.com/" },
       { "id": "ti3eYvHWXRXfuNeL", "label": "ui goodies", "url": "https://www.uigoodies.com/" },
-      { "id": "qu1ZA97He8KtjqnV", "label": "leetcode", "url": "https://leetcode.com/problemset/all/" }
+      { "id": "qu1ZA97He8KtjqnV", "label": "leetcode", "url": "https://leetcode.com/problemset/all/" },
+      { "id": "cc6f3d1936c074e58ea6e2a43a36264e", "label": "github", "url": "https://github.com/" },
     ]
   },
   {
