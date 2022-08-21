@@ -47,6 +47,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
+
 const bookmarks = [
   {
     "id": "VkOKtG5LkEDc5B8Y",
@@ -64,9 +65,23 @@ const bookmarks = [
     "bookmarks": [
       { "id": "asLe5XQQMd5X0GcX", "label": "canvas", "url": "https://canvas.vt.edu/" },
       { "id": "s1yyMX8eaMo5DECd", "label": "checksheet", "url": "https://www.registrar.vt.edu/content/dam/registrar_vt_edu/documents/Updates/coe/21-22/coe_cs_21_22.pdf" },
+      { "id": "", "label": "hokiespa", "url": "https://hokiespa.vt.edu/" },
       { "id": "ohDvXO8npBvfanK0", "label": "google drive", "url": "https://drive.google.com/drive/my-drive" },
+    ]
+  },
+  {
+    "id": "DmILMzCG5lte7zdR",
+    "label": "productivity",
+    "bookmarks": [
       { "id": "a8cd22a4f276ecf8b4ab826a6a15b824", "label": "gmail", "url": "https://mail.google.com/mail/u/0/" },
       { "id": "65514f7f3b351fe24ebf1890a3e8cea8", "label": "notion", "url": "https://www.notion.so/college-sophomore-fall-1c7de3fada4c4ea894689d74c925fe0b" },
+    ]
+  },
+  {
+    "id": "DmILMzCG5lte7zdR",
+    "label": "etc",
+    "bookmarks": [
+      { "id": "65514f7f3b351fe24ebf1890a3e8cea8", "label": "youtube", "url": "https://www.youtube.com/" },
     ]
   }
 ]
